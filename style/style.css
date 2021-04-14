@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+*{
+    font-family: 'Kumbh Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position:absolute ;
+}
+p{
+    font-weight: 300;
+    opacity: .7;
+}
+.top-image{
+    left:-201px;
+    top: -576px;
+}
+.bottom-image{
+    right:-208px;
+    bottom:-669px;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color:hsl(185, 75%, 39%);
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    border-radius: 25px;
+    overflow: hidden;
+    width: 480px;
+    height: 480px;
+    background-color: aliceblue;
+    position:relative;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-image{
+    top: 0px;
+   width: 480px;
+   height: 170px;
+}
+.victor-image{
+    top: 99px;
+    border-radius:80%;
+    border:8px solid white;
+    width: 150px;
+    height: 150px;
+}
+.name{
+    right:156px;
+    top: 260px;
+    width: 182px;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+   
+}
+.name h2 {
+    position: relative;
+    margin-right: 10px;
+    font-size: 23px;
+}
+.name p{
+    position: relative;
+    font-size: 25px;
+
+}
+
+
+
+.place{
+    /* 
+    top: -89px; */
+    bottom: 177px;
+    right: 272px;
+}
+.social{
+   bottom: 0px;
+   width: 480px;
+   height: 124px;
+   padding-top: 0px;
+   border-top: 1.5px solid hsl(229, 23%, 23%);
+   display : flex;
+    justify-content: center;
+    align-items: center;
+    
+  
+
+
+}
+.followers{
+    text-align: justify;
+    /* top: 66px;
+    right: 176px; */
+    position: relative;
+    height: 20px;
+    right: 100px;
+}
+.followers h2{
+    position: relative;
+    top: -12px;
+    left: 8px;
+
+}.follower{
+    /* top: 77px;
+    right: 188px; */
+    position: relative;
+    bottom: 5px;
+    
+
+}.likes{
+    /* top: 25px;
+    right: 38px; */
+    position: relative;
+    height: 20px;
+    left: -8px;
+    text-align: justify;
+
+}
+.likes h2{
+    position: relative;
+    top: -12px;
+    left: -10px;
+}
+.like{
+    /* top: 37px;
+
+    right: 22px; */
+    position: relative;
+    bottom: 5px;
+}
+
+
+.photos{
+    /* top: 71px;
+    right: 44px; */
+    position: relative;
+    height: 20px;
+    text-align: justify;
+
+
+}
+.photos h2{
+
+    top: -12px;
+    position: relative;
+    right: -70px;
+
+}
+.photo{
+    position: relative;
+    right: -70px;
+    bottom: 5px;
+}
+.attribution { 
+    position:relative;
+    top: 30px;
+    font-size: 20px;
+    font-weight: 900;
+     position:relative; 
+      text-align: center;
+     }
+.attribution a {
+    position: relative;
+    font-weight: 900;
+     color: hsl(64, 100%, 50%); 
+     text-decoration: none;
+    }
+.attribution a:hover{
+    color:white
+}
