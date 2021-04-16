@@ -18,7 +18,7 @@ p{
     right:-208px;
     bottom:-669px;
 }
-body{
+.centre{
     width: 100vw;
     height: 100vh;
     overflow: hidden;
@@ -52,9 +52,11 @@ body{
     height: 150px;
 }
 .name{
-    right:156px;
+   
+   
     top: 260px;
     width: 182px;
+    left: 147px;
     display : flex;
     justify-content: center;
     align-items: center;
@@ -65,6 +67,7 @@ body{
     position: relative;
     margin-right: 10px;
     font-size: 23px;
+    
 }
 .name p{
     position: relative;
@@ -75,11 +78,11 @@ body{
 
 
 .place{
-    /* 
-    top: -89px; */
-    bottom: 177px;
-    right: 272px;
+   
+    right: 275px;
+    top: 298px;
 }
+
 .social{
    bottom: 0px;
    width: 480px;
@@ -171,7 +174,203 @@ body{
     font-weight: 900;
      color: hsl(64, 100%, 50%); 
      text-decoration: none;
+
     }
 .attribution a:hover{
     color:white
 }
+@media screen and (max-width:360px)
+{
+p
+{
+    font-weight:50px;
+    opacity: .5;
+}
+.centre
+{
+   
+   position: relative;
+   display: block;
+}
+.container
+{
+    
+    height: 344px;
+    width: 284px;
+    top: -571px;
+    right: -34px;
+}
+.top-image
+{
+    left: -509px;
+    top: -387px;
+    height: 700px;
+    width: 700px;
+
+}
+.bottom-image
+{
+
+    bottom: -265px;
+    position: relative;
+    height: 700px;
+    width: 700px;
+    right: -149px;
+}
+.card-image
+{
+    width: 306px;
+    height: 131px;
+}
+.victor-image
+{
+    width: 118px;
+    height: 118px;
+    top: 69px;
+}
+.name h2
+{
+    right: -107px;
+    top: -63px;
+    font-size: 18px;
+}
+.name{
+    left:-50px;
+}
+.name p
+{
+   
+    font-size: 18px;
+}
+.age
+{
+
+    top: -63px;
+    right: -109px;
+    font-size: 18px;
+}
+.place
+{
+    left: 119px;
+    top: 228px;
+}
+.social
+{
+    
+    height: 85px;
+    border-top: .5px solid hsl(229, 23%, 23%);
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+
+}
+.followers
+{
+    text-align: justify;
+    font-size: 10px;
+    left: -40px;
+    
+}
+.followers h2
+{
+    position: relative;
+    top: -12px;
+    left: 8px;
+}
+.like
+{
+   left: 10px; 
+   
+}
+.likes h2{
+    position: relative;
+    top: -12px;
+    left: 9px;
+    font-size: 15px;
+}
+.photos
+{
+    font-size: 10px;
+    left: -26px;
+
+}
+.attribution
+{ 
+    
+    top: 496px;
+    font-size: 15px;
+    font-weight: 900;
+    text-align: center;
+    position: absolute
+}
+.attribution a
+{
+    position: relative;
+    font-weight: 900;
+    color: hsl(64, 100%, 50%); 
+    text-decoration: none;
+
+}
+.attribution a:hover
+{
+    color:white
+}
+}
+@media screen and (min-width:361px) and (max-width:600px)
+{
+    .top-image{
+        left: -624px;
+        top: -694px;
+    }
+    .bottom-image{
+        bottom: -640px;
+        right: -603px;
+
+    }
+    .container
+    {
+        width: 358px;
+        height: 443px;
+}
+    .name{
+        left: 55px;
+
+    }
+    .name h2{
+        left: 22px;
+    }
+    .age{
+        left: 20px;
+       
+
+    }
+    .place{
+        right: 208px;
+        top: 297px;
+    }
+    
+    .social{
+        font-size: 12px;
+        height: 92px;
+    }
+    .followers{
+        left: -62px;
+    }
+    .photos{
+        left: -25px;
+    }
+        
+
+
+}
+
+
+
+    
+  
+
+    
+
+   
+
